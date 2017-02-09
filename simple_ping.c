@@ -98,7 +98,7 @@ int main(int argc, char **argv)
 	
 	struct sockaddr receive;
 	uint32_t receiveSize;
-    uint32_t *receivePacket = malloc(500);
+	uint32_t *receivePacket = malloc(500);
 	
 	int i;
 	for(i=0; i<5; i++){
